@@ -47,6 +47,7 @@
     padding: 0px;
     margin-bottom: 0px;
     color: inherit;
+    /*background: url(/clients/kennyraysplace/assets/photos/stock/shop.png) no-repeat center center fixed;*/
     background: url(assets/photos/stock/shop.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -60,6 +61,7 @@
     padding: 0px;
     margin-bottom: 0px;
     color: inherit;
+    /*background: url(/clients/kennyraysplace/assets/photos/stock/shop2.png) no-repeat center center fixed;*/
     background: url(assets/photos/stock/shop2.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -83,4 +85,70 @@
 
 #myCarousel {
     margin-bottom: 0px;
+}
+
+
+/* for index2 
+ for index2 
+ for index2 
+ for index2 */
+
+@media screen and (min-width: 768px) {}
+
+.phone-number {
+    text-align: right;
+    color: #fff;
+}
+
+.topbar {
+    height: 40px;
+    background-color: #000;
+}
+
+#topaddy {
+    text-align: right;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.content-space-three {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    /*background: url(/clients/kennyraysplace/assets/photos/stock/shop.png) no-repeat center center fixed;*/
+    background: url(assets/photos/stock/shop.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.space-three-content {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.content-space-four {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    /*background: url(/clients/kennyraysplace/assets/photos/stock/shop2.png) no-repeat center center fixed;*/
+    background: url(assets/photos/stock/shop2.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.addyright {
+    text-align: right;
+}
+
+.img-circle-padding {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
