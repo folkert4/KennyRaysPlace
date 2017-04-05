@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(240, 140, 50);
+}
+
 .content-block-one {
     padding: 30px;
     margin-bottom: 0px;
@@ -48,7 +52,7 @@
     margin-bottom: 0px;
     color: inherit;
     /*background: url(/clients/kennyraysplace/assets/photos/stock/shop.png) no-repeat center center fixed;*/
-    background: url(assets/photos/stock/shop.png) no-repeat center center fixed;
+    background: url(../assets/photos/stock/shop.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -62,7 +66,7 @@
     margin-bottom: 0px;
     color: inherit;
     /*background: url(/clients/kennyraysplace/assets/photos/stock/shop2.png) no-repeat center center fixed;*/
-    background: url(assets/photos/stock/shop2.png) no-repeat center center fixed;
+    background: url(../assets/photos/stock/shop2.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -87,21 +91,19 @@
     margin-bottom: 0px;
 }
 
-
-/* for index2 
- for index2 
- for index2 
- for index2 */
-
-@media screen and (min-width: 768px) {}
-
 .phone-number {
-    text-align: right;
+    text-align: left;
+    color: #fff;
+}
+
+.phone-number:hover {
+    text-decoration: none;
     color: #fff;
 }
 
 .topbar {
-    height: 40px;
+    padding-top: 5px;
+    height: 35px;
     background-color: #000;
 }
 
@@ -111,12 +113,17 @@
     padding-right: 10px;
 }
 
+#main-logo {
+    margin-right: 20px;
+    float: right;
+}
+
 .content-space-three {
     padding: 0px;
     margin-bottom: 0px;
     color: inherit;
-    /*background: url(/clients/kennyraysplace/assets/photos/stock/shop.png) no-repeat center center fixed;*/
-    background: url(assets/photos/stock/shop.png) no-repeat center center fixed;
+    /*background: url(/clients/kennyraysplace/assets/photos/tina/shopWCK.png) no-repeat center center fixed;*/
+    background: url(../assets/photos/tina/shopWCK.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -125,17 +132,22 @@
     padding-bottom: 60px;
 }
 
-.space-three-content {
+.space-content {
     border-radius: 20px;
     background-color: rgba(0, 0, 0, .3);
+}
+
+.space-content-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .content-space-four {
     padding: 0px;
     margin-bottom: 0px;
     color: inherit;
-    /*background: url(/clients/kennyraysplace/assets/photos/stock/shop2.png) no-repeat center center fixed;*/
-    background: url(assets/photos/stock/shop2.png) no-repeat center center fixed;
+    /*background: url(/clients/kennyraysplace/assets/photos/tina/toolsB.png) no-repeat center center fixed;*/
+    background: url(../assets/photos/tina/toolsB.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -151,4 +163,14 @@
 .img-circle-padding {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.copy {
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.gmaps {
+    width: 100%;
 }
