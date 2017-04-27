@@ -94,8 +94,7 @@ body {
     padding: 0px;
     margin-bottom: 0px;
     color: inherit;
-    /*background: url(/clients/kennyraysplace/assets/photos/tina/shopWCK.png) no-repeat center center fixed;*/
-    background: url(../assets/photos/tina/shopWCK.png) no-repeat center center fixed;
+    background: url(../assets/photos/tina/cutShopC.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,7 +119,6 @@ body {
     padding: 0px;
     margin-bottom: 0px;
     color: inherit;
-    /*background: url(/clients/kennyraysplace/assets/photos/tina/toolsB.png) no-repeat center center fixed;*/
     background: url(../assets/photos/tina/toolsB.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
